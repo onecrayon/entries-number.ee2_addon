@@ -426,7 +426,7 @@ class Entries_number
 			//Create conditionals array
 			$conds['entries_number'] = $entriesnumber;
 			
-			//Make entries_number variable available for use in conditionals
+			// Make entries_number variable available for use in conditionals
 			$tagdata = $this->EE->functions->prep_conditionals($tagdata, $conds);
 			
 			// Check if there is {entries_number} variable placed between {exp:entries_number} and {/exp:entries_number} tag pair
@@ -494,8 +494,8 @@ class Entries_number
 		
 		9) invalid_input - Optional. Accepts two values: "alert" and "silence".
 		Default value is "silence". If the value is "alert", then in cases when some
-		parameter’s value is invalid plugin exits and PHP alert is being shown;
-		if the value is "silence", then in cases when some parameter’s value
+		parameter's value is invalid plugin exits and PHP alert is being shown;
+		if the value is "silence", then in cases when some parameter's value
 		is invalid plugin finishes its work without any alert being shown. 
 		Set this parameter to "alert" for development, and to "silence" - for deployment.
 		
