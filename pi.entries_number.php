@@ -7,7 +7,7 @@ $plugin_info = array(
 	'pi_name'			=> ENTRIES_NUMBER_NAME,
 	'pi_version'		=> ENTRIES_NUMBER_VERSION,
 	'pi_author'			=> 'Laisvunas Sopauskas and Ian Beck',
-	'pi_author_url'		=> 'http://devot-ee.com/add-ons/entries-number/',
+	'pi_author_url'		=> 'http://github.com/onecrayon/entries-number.ee2_addon',
 	'pi_description'	=> 'Allows you to find number of entries posted into certain
 	channels and/or into certain categories and/or having
 	certain url_title. Use the number found in conditionals.',
